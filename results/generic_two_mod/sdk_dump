@@ -1,0 +1,168 @@
+[2m2020-09-03T07:55:11.045632Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: INITIAL PARTITIONING:
+[2m2020-09-03T07:55:11.045710Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit elrhfg82bghlefn estimated size 3 :
+[2m2020-09-03T07:55:11.045961Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn alloc::raw_vec::RawVec::<&str>::ptr [(External, Default)] [h6b3719bd6516df21E] estimated size 3
+[2m2020-09-03T07:55:11.046025Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.046034Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 53yr424jhroas7ja estimated size 25 :
+[2m2020-09-03T07:55:11.046065Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::intrinsics::is_aligned_and_not_null::<&str> [(External, Default)] [ha1fe576f843d45dfE] estimated size 25
+[2m2020-09-03T07:55:11.046111Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.046120Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 163n7vs2xetbtmln estimated size 160 :
+[2m2020-09-03T07:55:11.046165Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::slice::from_raw_parts::<&str> [(External, Default)] [hc0345747d4b703f1E] estimated size 33
+[2m2020-09-03T07:55:11.046231Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::as_ptr [(External, Default)] [hbe758703e49b6511E] estimated size 4
+[2m2020-09-03T07:55:11.046284Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [u8]>::len [(External, Default)] [h2bb3bd87f201f892E] estimated size 7
+[2m2020-09-03T07:55:11.046334Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::len [(External, Default)] [h43a8bb636aa62841E] estimated size 7
+[2m2020-09-03T07:55:11.046438Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::slice::Iter<&str> as std::iter::Iterator>::next [(External, Default)] [h93facf27752252e9E] estimated size 53
+[2m2020-09-03T07:55:11.046508Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::iter [(External, Default)] [hf527bc5baa78a4ebE] estimated size 56
+[2m2020-09-03T07:55:11.046536Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.046544Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 23yd9j2yrgoc650g estimated size 38 :
+[2m2020-09-03T07:55:11.046587Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::offset [(External, Default)] [h7b0bf90791c6e9f5E] estimated size 12
+[2m2020-09-03T07:55:11.046649Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::is_null [(External, Default)] [h23b929f4423d9d6aE] estimated size 8
+[2m2020-09-03T07:55:11.046701Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut u8>::guaranteed_eq [(External, Default)] [h601030d847ca617eE] estimated size 18
+[2m2020-09-03T07:55:11.046728Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.046736Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 2459livgryshxkp4 estimated size 4 :
+[2m2020-09-03T07:55:11.046784Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::Unique::<&str>::as_ptr [(External, Default)] [h5655ab75a99c744fE] estimated size 4
+[2m2020-09-03T07:55:11.046814Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.046823Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 11a87b5xfv3hb9qv estimated size 35 :
+[2m2020-09-03T07:55:11.046886Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::vec::Vec<&str> as std::ops::Deref>::deref [(External, Default)] [h30ef2cc075baaa7dE] estimated size 8
+[2m2020-09-03T07:55:11.046959Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::vec::Vec::<&str>::as_ptr [(External, Default)] [h145e66c8162847c6E] estimated size 19
+[2m2020-09-03T07:55:11.047078Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <&std::vec::Vec<&str> as std::iter::IntoIterator>::into_iter [(External, Default)] [hb9ca5a9b392356a5E] estimated size 8
+[2m2020-09-03T07:55:11.047117Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047126Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 58ps8rrtxfx9np7w estimated size 44 :
+[2m2020-09-03T07:55:11.047170Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::add [(External, Default)] [h0a80b69d92454979E] estimated size 9
+[2m2020-09-03T07:55:11.047223Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::is_null [(External, Default)] [h1bc05c7bc9eef063E] estimated size 8
+[2m2020-09-03T07:55:11.047279Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_offset [(External, Default)] [h37f6cf7ef1fc96c6E] estimated size 6
+[2m2020-09-03T07:55:11.047329Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::guaranteed_eq [(External, Default)] [he9b7665e30271a34E] estimated size 6
+[2m2020-09-03T07:55:11.047379Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::offset [(External, Default)] [hbfdc94436b56dcdbE] estimated size 6
+[2m2020-09-03T07:55:11.047429Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_add [(External, Default)] [he259ea8896fc0e43E] estimated size 9
+[2m2020-09-03T07:55:11.047455Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047464Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4yamdx68b5z7ohqn estimated size 14 :
+[2m2020-09-03T07:55:11.047490Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::slice_from_raw_parts::<&str> [(External, Default)] [h6775f144618d9559E] estimated size 14
+[2m2020-09-03T07:55:11.047517Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047525Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 219tzlphi8p5f5uz estimated size 70 :
+[2m2020-09-03T07:55:11.047557Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::checked_mul [(External, Hidden)] [h98803bd2b243ae8bE] estimated size 25
+[2m2020-09-03T07:55:11.047599Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::overflowing_mul [(External, Hidden)] [h53a67bba2b07972cE] estimated size 31
+[2m2020-09-03T07:55:11.047639Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::saturating_mul [(External, Hidden)] [h5b11a56b061b5ae9E] estimated size 14
+[2m2020-09-03T07:55:11.047657Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047665Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4iquznut4gu2sluj estimated size 40 :
+[2m2020-09-03T07:55:11.047691Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn non_generic::total_strlen [(External, Default)] [hedb33b2527634c7aE] estimated size 40
+[2m2020-09-03T07:55:11.047703Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047712Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4potwub877e8oc93 estimated size 14 :
+[2m2020-09-03T07:55:11.047761Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::new_unchecked [(External, Default)] [h915213458f8161efE] estimated size 10
+[2m2020-09-03T07:55:11.047860Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::as_ptr [(External, Default)] [hb082f9e0cbf7e715E] estimated size 4
+[2m2020-09-03T07:55:11.047889Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047898Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4zerrcbtqqeu89b8 estimated size 8 :
+[2m2020-09-03T07:55:11.047938Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::str::<impl str>::len [(External, Hidden)] [hd6eca427e8fa15c9E] estimated size 8
+[2m2020-09-03T07:55:11.047957Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.047985Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: POST MERGING:
+[2m2020-09-03T07:55:11.047994Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 11a87b5xfv3hb9qv estimated size 35 :
+[2m2020-09-03T07:55:11.048003Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::vec::Vec<&str> as std::ops::Deref>::deref [(External, Default)] [h30ef2cc075baaa7dE] estimated size 8
+[2m2020-09-03T07:55:11.048032Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::vec::Vec::<&str>::as_ptr [(External, Default)] [h145e66c8162847c6E] estimated size 19
+[2m2020-09-03T07:55:11.048054Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <&std::vec::Vec<&str> as std::iter::IntoIterator>::into_iter [(External, Default)] [hb9ca5a9b392356a5E] estimated size 8
+[2m2020-09-03T07:55:11.048083Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048091Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 163n7vs2xetbtmln estimated size 160 :
+[2m2020-09-03T07:55:11.048100Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::slice::from_raw_parts::<&str> [(External, Default)] [hc0345747d4b703f1E] estimated size 33
+[2m2020-09-03T07:55:11.048117Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::as_ptr [(External, Default)] [hbe758703e49b6511E] estimated size 4
+[2m2020-09-03T07:55:11.048136Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [u8]>::len [(External, Default)] [h2bb3bd87f201f892E] estimated size 7
+[2m2020-09-03T07:55:11.048154Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::len [(External, Default)] [h43a8bb636aa62841E] estimated size 7
+[2m2020-09-03T07:55:11.048172Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::slice::Iter<&str> as std::iter::Iterator>::next [(External, Default)] [h93facf27752252e9E] estimated size 53
+[2m2020-09-03T07:55:11.048200Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::iter [(External, Default)] [hf527bc5baa78a4ebE] estimated size 56
+[2m2020-09-03T07:55:11.048218Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048226Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 219tzlphi8p5f5uz estimated size 70 :
+[2m2020-09-03T07:55:11.048235Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::checked_mul [(External, Hidden)] [h98803bd2b243ae8bE] estimated size 25
+[2m2020-09-03T07:55:11.048253Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::overflowing_mul [(External, Hidden)] [h53a67bba2b07972cE] estimated size 31
+[2m2020-09-03T07:55:11.048270Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::saturating_mul [(External, Hidden)] [h5b11a56b061b5ae9E] estimated size 14
+[2m2020-09-03T07:55:11.048286Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048294Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 23yd9j2yrgoc650g estimated size 38 :
+[2m2020-09-03T07:55:11.048303Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::offset [(External, Default)] [h7b0bf90791c6e9f5E] estimated size 12
+[2m2020-09-03T07:55:11.048323Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::is_null [(External, Default)] [h23b929f4423d9d6aE] estimated size 8
+[2m2020-09-03T07:55:11.048348Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut u8>::guaranteed_eq [(External, Default)] [h601030d847ca617eE] estimated size 18
+[2m2020-09-03T07:55:11.048367Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048375Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 2459livgryshxkp4 estimated size 4 :
+[2m2020-09-03T07:55:11.048385Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::Unique::<&str>::as_ptr [(External, Default)] [h5655ab75a99c744fE] estimated size 4
+[2m2020-09-03T07:55:11.048406Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048414Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4iquznut4gu2sluj estimated size 40 :
+[2m2020-09-03T07:55:11.048423Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn non_generic::total_strlen [(External, Default)] [hedb33b2527634c7aE] estimated size 40
+[2m2020-09-03T07:55:11.048434Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048442Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4potwub877e8oc93 estimated size 14 :
+[2m2020-09-03T07:55:11.048451Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::new_unchecked [(External, Default)] [h915213458f8161efE] estimated size 10
+[2m2020-09-03T07:55:11.048472Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::as_ptr [(External, Default)] [hb082f9e0cbf7e715E] estimated size 4
+[2m2020-09-03T07:55:11.048493Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048501Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4yamdx68b5z7ohqn estimated size 14 :
+[2m2020-09-03T07:55:11.048510Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::slice_from_raw_parts::<&str> [(External, Default)] [h6775f144618d9559E] estimated size 14
+[2m2020-09-03T07:55:11.048526Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048534Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4zerrcbtqqeu89b8 estimated size 8 :
+[2m2020-09-03T07:55:11.048543Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::str::<impl str>::len [(External, Hidden)] [hd6eca427e8fa15c9E] estimated size 8
+[2m2020-09-03T07:55:11.048560Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048568Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 53yr424jhroas7ja estimated size 25 :
+[2m2020-09-03T07:55:11.048577Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::intrinsics::is_aligned_and_not_null::<&str> [(External, Default)] [ha1fe576f843d45dfE] estimated size 25
+[2m2020-09-03T07:55:11.048593Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048601Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 58ps8rrtxfx9np7w estimated size 44 :
+[2m2020-09-03T07:55:11.048611Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::add [(External, Default)] [h0a80b69d92454979E] estimated size 9
+[2m2020-09-03T07:55:11.048631Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::is_null [(External, Default)] [h1bc05c7bc9eef063E] estimated size 8
+[2m2020-09-03T07:55:11.048651Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_offset [(External, Default)] [h37f6cf7ef1fc96c6E] estimated size 6
+[2m2020-09-03T07:55:11.048671Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::guaranteed_eq [(External, Default)] [he9b7665e30271a34E] estimated size 6
+[2m2020-09-03T07:55:11.048690Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::offset [(External, Default)] [hbfdc94436b56dcdbE] estimated size 6
+[2m2020-09-03T07:55:11.048718Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_add [(External, Default)] [he259ea8896fc0e43E] estimated size 9
+[2m2020-09-03T07:55:11.048737Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048745Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit elrhfg82bghlefn estimated size 3 :
+[2m2020-09-03T07:55:11.048754Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn alloc::raw_vec::RawVec::<&str>::ptr [(External, Default)] [h6b3719bd6516df21E] estimated size 3
+[2m2020-09-03T07:55:11.048773Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048871Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: POST INLINING:
+[2m2020-09-03T07:55:11.048880Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 11a87b5xfv3hb9qv estimated size 35 :
+[2m2020-09-03T07:55:11.048889Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::vec::Vec<&str> as std::ops::Deref>::deref [(External, Default)] [h30ef2cc075baaa7dE] estimated size 8
+[2m2020-09-03T07:55:11.048918Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::vec::Vec::<&str>::as_ptr [(External, Default)] [h145e66c8162847c6E] estimated size 19
+[2m2020-09-03T07:55:11.048940Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <&std::vec::Vec<&str> as std::iter::IntoIterator>::into_iter [(External, Default)] [hb9ca5a9b392356a5E] estimated size 8
+[2m2020-09-03T07:55:11.048968Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.048976Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 163n7vs2xetbtmln estimated size 206 :
+[2m2020-09-03T07:55:11.049041Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::slice::Iter::<&str>::post_inc_start [(Internal, Default)] [he79ae583e4a29781E] estimated size 46
+[2m2020-09-03T07:55:11.049076Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [u8]>::len [(External, Default)] [h2bb3bd87f201f892E] estimated size 7
+[2m2020-09-03T07:55:11.049113Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::mem::size_of::<&str> [(Internal, Default)] [hb99ddff1b9d66cccE] estimated size 0
+[2m2020-09-03T07:55:11.049141Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::slice::from_raw_parts::<&str> [(External, Default)] [hc0345747d4b703f1E] estimated size 33
+[2m2020-09-03T07:55:11.049159Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::as_ptr [(External, Default)] [hbe758703e49b6511E] estimated size 4
+[2m2020-09-03T07:55:11.049178Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::len [(External, Default)] [h43a8bb636aa62841E] estimated size 7
+[2m2020-09-03T07:55:11.049197Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn <std::slice::Iter<&str> as std::iter::Iterator>::next [(External, Default)] [h93facf27752252e9E] estimated size 53
+[2m2020-09-03T07:55:11.049225Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::slice::<impl [&str]>::iter [(External, Default)] [hf527bc5baa78a4ebE] estimated size 56
+[2m2020-09-03T07:55:11.049243Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049251Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 219tzlphi8p5f5uz estimated size 70 :
+[2m2020-09-03T07:55:11.049260Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::checked_mul [(External, Hidden)] [h98803bd2b243ae8bE] estimated size 25
+[2m2020-09-03T07:55:11.049278Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::overflowing_mul [(External, Hidden)] [h53a67bba2b07972cE] estimated size 31
+[2m2020-09-03T07:55:11.049295Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::num::<impl usize>::saturating_mul [(External, Hidden)] [h5b11a56b061b5ae9E] estimated size 14
+[2m2020-09-03T07:55:11.049316Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049324Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 23yd9j2yrgoc650g estimated size 39 :
+[2m2020-09-03T07:55:11.049334Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::offset [(External, Default)] [h7b0bf90791c6e9f5E] estimated size 12
+[2m2020-09-03T07:55:11.049354Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut u8>::guaranteed_eq [(External, Default)] [h601030d847ca617eE] estimated size 18
+[2m2020-09-03T07:55:11.049392Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::null_mut::<u8> [(Internal, Default)] [ha7915e622d4de3cdE] estimated size 1
+[2m2020-09-03T07:55:11.049419Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::mut_ptr::<impl *mut &str>::is_null [(External, Default)] [h23b929f4423d9d6aE] estimated size 8
+[2m2020-09-03T07:55:11.049440Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049448Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 2459livgryshxkp4 estimated size 4 :
+[2m2020-09-03T07:55:11.049457Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::Unique::<&str>::as_ptr [(External, Default)] [h5655ab75a99c744fE] estimated size 4
+[2m2020-09-03T07:55:11.049478Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049486Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4iquznut4gu2sluj estimated size 40 :
+[2m2020-09-03T07:55:11.049495Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn non_generic::total_strlen [(External, Default)] [hedb33b2527634c7aE] estimated size 40
+[2m2020-09-03T07:55:11.049506Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049514Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4potwub877e8oc93 estimated size 14 :
+[2m2020-09-03T07:55:11.049523Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::new_unchecked [(External, Default)] [h915213458f8161efE] estimated size 10
+[2m2020-09-03T07:55:11.049545Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::NonNull::<&str>::as_ptr [(External, Default)] [hb082f9e0cbf7e715E] estimated size 4
+[2m2020-09-03T07:55:11.049566Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049574Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4yamdx68b5z7ohqn estimated size 14 :
+[2m2020-09-03T07:55:11.049583Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::slice_from_raw_parts::<&str> [(External, Default)] [h6775f144618d9559E] estimated size 14
+[2m2020-09-03T07:55:11.049599Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049607Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 4zerrcbtqqeu89b8 estimated size 11 :
+[2m2020-09-03T07:55:11.049617Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::str::<impl str>::len [(External, Hidden)] [hd6eca427e8fa15c9E] estimated size 8
+[2m2020-09-03T07:55:11.049668Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn core::str::<impl str>::as_bytes [(Internal, Default)] [h33f13c53ca2fb1c8E] estimated size 3
+[2m2020-09-03T07:55:11.049687Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049695Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 53yr424jhroas7ja estimated size 25 :
+[2m2020-09-03T07:55:11.049704Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::intrinsics::is_aligned_and_not_null::<&str> [(External, Default)] [ha1fe576f843d45dfE] estimated size 25
+[2m2020-09-03T07:55:11.049738Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::mem::align_of::<&str> [(Internal, Default)] [h7f2630c86c5c4acfE] estimated size 0
+[2m2020-09-03T07:55:11.049770Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049778Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit 58ps8rrtxfx9np7w estimated size 45 :
+[2m2020-09-03T07:55:11.049788Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::add [(External, Default)] [h0a80b69d92454979E] estimated size 9
+[2m2020-09-03T07:55:11.049809Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::is_null [(External, Default)] [h1bc05c7bc9eef063E] estimated size 8
+[2m2020-09-03T07:55:11.049847Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::null::<u8> [(Internal, Default)] [h72a11d882913d51aE] estimated size 1
+[2m2020-09-03T07:55:11.049873Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_offset [(External, Default)] [h37f6cf7ef1fc96c6E] estimated size 6
+[2m2020-09-03T07:55:11.049893Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::guaranteed_eq [(External, Default)] [he9b7665e30271a34E] estimated size 6
+[2m2020-09-03T07:55:11.049913Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const &str>::offset [(External, Default)] [hbfdc94436b56dcdbE] estimated size 6
+[2m2020-09-03T07:55:11.049933Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn std::ptr::const_ptr::<impl *const u8>::wrapping_add [(External, Default)] [he259ea8896fc0e43E] estimated size 9
+[2m2020-09-03T07:55:11.049951Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 
+[2m2020-09-03T07:55:11.049959Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: CodegenUnit elrhfg82bghlefn estimated size 3 :
+[2m2020-09-03T07:55:11.049968Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning:  - fn alloc::raw_vec::RawVec::<&str>::ptr [(External, Default)] [h6b3719bd6516df21E] estimated size 3
+[2m2020-09-03T07:55:11.049988Z[0m [34mDEBUG[0m rustc_mir::monomorphize::partitioning: 

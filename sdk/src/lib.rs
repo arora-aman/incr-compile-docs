@@ -18,6 +18,6 @@ mod tests {
         let a = "Str";
         let b = "Concat";
 
-        assert_eq!(9, non_generic::total_strlen(vec![a, b]));
+        assert_eq!(9, non_generic::total_strlen(&vec![a, b]));
     }
 }

@@ -5,6 +5,6 @@ pub fn rust_repository_link() -> String {
 }
 
 pub fn rust_repository_strlen() -> usize {
-    non_generic::total_strlen(vec!["rust-lang/", "rust"])
+    non_generic::total_strlen(&vec!["rust-lang/", "rust"])
 }
 
